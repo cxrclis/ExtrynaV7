@@ -1,0 +1,5 @@
+if not game:IsLoaded() then
+	game.Loaded:Wait()
+end
+local success,err = pcall(function()
+if err then print(err) end
